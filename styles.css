@@ -1,0 +1,251 @@
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #24182B;
+	color: white;
+	height: 50px;
+}
+
+button {
+	display: none;
+}
+
+nav {
+	background-color: #24182B;
+	color: white;
+}
+
+nav div {
+	justify-content: center;
+}
+
+nav div a {
+	text-decoration: none;
+	margin-bottom: 10px;
+	margin: 0px 50px 5px 50px;
+	color: white;
+}
+
+nav div a:hover {
+	background-color: white;
+	color: #24182B;
+	border-radius: 5px;
+	padding: 0px 5px;
+}
+
+section {
+	width: 18%;
+	margin-left: 120px;
+	margin-top: 60px;
+	float: left;
+}
+
+main {
+	width: 100%;
+}
+
+section div a {
+	color: black;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+section div a:hover {
+	background-color: black;
+	color: white;
+	padding: 3px 2px;
+	border-radius: 3px;
+}
+
+hr {
+	margin-right: 10px;
+	border: solid 1px black;
+}
+
+h1 {
+	font-family: 'Noto Serif', serif;
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	background-color: #E4E8EE;
+	padding: 3px 20px;
+	font-size: 0.8em;
+	margin-top: 3px;
+}
+
+h5 {
+	display: none;
+}
+
+.caja-icono {
+	position: absolute;
+	top: 15px;
+	left: 1200px;
+}
+
+.icono {
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+.box {
+	margin-top: 50px;
+	margin-right: 250px;
+	float: right;
+}
+
+.product-1 {
+	width: 15rem;
+}
+
+.product-2 {
+	width: 15rem;
+}
+
+.product-3 {
+	width: 15rem;
+}
+
+footer {
+	background-color: #24182B;
+	height: 50px;	
+	width: 100%;
+	clear: both;
+	display: inline-block;
+	margin-top: 70px;
+}
+
+footer a {
+	text-decoration: none;
+	margin-left: 60px;
+}
+
+footer a:hover {
+	background-color: #382542;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+@media(min-width: 1024px) and (max-width: 1330px) {
+	.caja-icono {
+		left: 900px;
+	}
+
+	section {
+		margin-left: 20px;
+	}
+
+	.box {
+		margin-right: 70px;
+	}
+}
+
+@media(min-width: 720px) and (max-width: 1023px) {
+	body {
+		width: 100%;
+	}
+
+	nav div a {
+		display: none;
+	}
+	
+	header {
+		height: 150px;
+	}
+
+	button {
+		display: inline-block;
+		border-radius: 5px;
+		width: 60px;
+		margin-top: 50px;
+		margin-left: 30px;
+	}
+
+	h1 {
+		position: relative;
+		bottom: 70px;
+		font-size: 3.5em;
+	}
+
+	h5 {
+		display: flex;
+		font-size: 2em;
+		margin-top: -50px;
+	}
+
+	section {
+		display: none;
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+
+	.icono {
+		width: 60px;
+		height: 60px;
+	}
+
+	.icon-user {
+		display: none;
+	}
+
+	.icon-search {
+		display: none;
+	}
+
+	.caja-icono {
+		left: 800px;
+		margin-top: 30px;
+	}
+
+	.box {
+		margin-right: 30px;
+	}
+
+	.cajita {
+		display: flex;
+		flex-direction: column;
+		margin: 20px 70px;
+	}
+
+	.product-1 {
+		width: 50rem;
+	}
+	
+	.product-2 {
+		width: 50rem;
+	}
+	
+	.product-3 {
+		width: 50rem;
+	}
+
+	.product-box {
+		display: none;
+	}
+
+	footer {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer a {
+		margin: auto;
+		font-size: 1.8em;
+		padding: 5px;
+	}
+}	
